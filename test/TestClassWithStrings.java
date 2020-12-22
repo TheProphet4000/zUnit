@@ -22,11 +22,9 @@ public class TestClassWithStrings extends TestSuite {
     }
 
     private void passingTest(){
-        // Ændres fra int til Strings
-        assertEquals(new String("string1"),new String ("string1"));
+        assertEquals(5,5);
     }
     private void failingTest(){
-        assertEquals(new String("string1"),new String ("string2"));
+        assertEquals(3,7);
     }
 }
-

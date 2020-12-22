@@ -8,7 +8,7 @@
 
 import zunit.TestSuite;
 
-public class TestClass extends TestSuite {
+public class TestClassWithStrings extends TestSuite {
 
     @Override
     public void testMethodList() {
